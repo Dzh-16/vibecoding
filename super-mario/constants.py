@@ -1,0 +1,65 @@
+# Screen
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+TILE_SIZE = 40
+FPS = 60
+
+# Physics
+GRAVITY = 0.6
+PLAYER_SPEED = 5
+PLAYER_JUMP = -14.5
+MAX_FALL_SPEED = 15
+ENEMY_SPEED = 1.5
+CAMERA_SMOOTHING = 0.1
+STAR_PARALLAX = 0.3
+
+# Player states
+SMALL = "small"
+BIG = "big"
+FIRE = "fire"
+
+# Entity types
+COIN = "coin"
+MUSHROOM = "mushroom"
+GOOMBA = "goomba"
+KOOPA = "koopa"
+
+# Game states
+PLAYING = "playing"
+WON = "won"
+GAMEOVER = "gameover"
+
+# Tile types
+AIR = 0
+GROUND = 1
+BRICK = 2
+QUESTION_BLOCK = 3
+QUESTION_BLOCK_USED = 8
+PIPE_TOP_LEFT = 4
+PIPE_TOP_RIGHT = 41
+PIPE_BODY_LEFT = 5
+PIPE_BODY_RIGHT = 51
+FLAG_POLE = 6
+FLAG_TOP = 7
+
+# Level dimensions
+ROWS = 15
+COLS = 200
+
+# Colors
+SKY_BLUE = (107, 140, 255)
+GROUND_BROWN = (139, 90, 43)
+BRICK_ORANGE = (200, 76, 12)
+QUESTION_YELLOW = (255, 200, 0)
+PIPE_GREEN = (0, 168, 0)
+PIPE_DARK_GREEN = (0, 128, 0)
+RED = (255, 0, 0)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+MARIO_RED = (200, 30, 30)
+MARIO_SKIN = (255, 200, 160)
+MARIO_BROWN = (139, 69, 19)
+GOOMBA_BROWN = (160, 100, 40)
+COIN_YELLOW = (255, 223, 0)
+MUSHROOM_RED = (255, 100, 100)
+FLAG_GREEN = (0, 200, 0)
